@@ -57,7 +57,7 @@
 </template>
 
 <script setup>
-import { reactive, computed, ref } from 'vue';
+import { reactive, computed, ref, watch } from 'vue';
 import { useClientsStore } from '../store/clientStore';
 
 const clientsStore = useClientsStore();
@@ -159,6 +159,14 @@ const saveEdit = () => {
 
   closeEditModal();
 };
+
+watch(
+  () => clientsStore.clients,
+  (newClients) => {
+    console.log('Updated clients:', newClients);
+  },
+  { deep: true }
+);
 </script>
 
 <style scoped>
