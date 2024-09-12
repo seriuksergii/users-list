@@ -101,10 +101,6 @@ const addClient = () => {
     nameError.value = 'Full Name is required';
   }
 
-  if (!newClient.assignedUser.email.includes('@')) {
-    emailError.value = 'Email must contain "@"';
-  }
-
   if (!nameError.value && !emailError.value) {
     const newClientId = clientsStore.clients.length + 1;
 
