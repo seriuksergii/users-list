@@ -6,7 +6,7 @@
 
 ## To run this project locally:
 
-1.	Create and open new directory: mkdir yourdirectory/ cd yourdirectory
+1.	Create and open new directory: mkdir users-list/ cd users-list
 
 2.	Clone the Repository:
 
