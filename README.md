@@ -6,13 +6,11 @@
 
 ## To run this project locally:
 
-1.	Clone the Repository:
+1.	Create and open new directory: mkdir yourdirectory/ cd yourdirectory
 
-        https://github.com/seriuksergii/users-list.git
+2.	Clone the Repository:
 
-2.	Navigate to the project directory:
-
-         cd bustour-test-task 
+        git clone https://github.com/seriuksergii/users-list.git
 
 3.	Install dependencies:
 
