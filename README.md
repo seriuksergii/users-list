@@ -20,7 +20,7 @@
 
 4.	Start the application:
  
-          npm run build
+          npm run dev
 
  ## TASK CONDITION
  
