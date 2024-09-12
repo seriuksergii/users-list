@@ -8,7 +8,7 @@
 
 1.	Clone the Repository:
 
-        [https://github.com/seriuksergii/users-list.git]
+        https://github.com/seriuksergii/users-list.git
 
 2.	Navigate to the project directory:
 
