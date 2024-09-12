@@ -1,18 +1,18 @@
-Check out the live demo
+# Check out the live demo
 
-[Demo](https://users-list-ijyz3sbxe-seriuksergiis-projects.vercel.app)
+# [Demo](https://users-list-ijyz3sbxe-seriuksergiis-projects.vercel.app)
 
-Installation
+## Installation
 
-To run this project locally:
+## To run this project locally:
 
 1.	Clone the Repository:
 
-         https://github.com/seriuksergii/react-todo.git
+        [https://github.com/seriuksergii/users-list.git]
 
 2.	Navigate to the project directory:
 
-         cd react-todo
+         cd bustour-test-task 
 
 3.	Install dependencies:
 
@@ -22,24 +22,24 @@ To run this project locally:
  
           npm run build
 
- TASK CONDITION
-
- Cookies:
+ ## TASK CONDITION
+ 
+## Cookies:
 
 Create a component with a select dropdown and a checkbox. Depending on the checkbox selection, the data from the select will either be saved in cookies (with a 15-minute expiration) or not. The task assumes that no external libraries will be used to work with cookies.
 
-REST API:
+## REST API:
 
 Implement a page displaying a list of users. For each user, display their name and company information. Additionally, you should implement actions for adding, deleting, and editing users. Use the data from the JSONPlaceholder API: https://jsonplaceholder.typicode.com/users
 
 It is acceptable to use external libraries like axios or tanstack query to complete this task.
 
-Store set, get (pinia)
+## Store set, get (pinia)
 
 For this task, you need to add an array of objects in the store, which can be added to, deleted from, or edited. Deletion and editing should happen strictly by ID. (The task assumes that nested elements of the object will be edited).
 
 The array elements will have the following structure:
-
+```
 [
   {
     id: 1,
@@ -61,13 +61,21 @@ The array elements will have the following structure:
     }
   }
 ]
+```
 
 
+## Technologies Used:
 
-Technologies Used:
-
-•	React
+•	Vue3
 
 •	TypeScript
 
-•	SCSS
+•	CSS
+
+•        API JSONPlaceholder
+
+•        Pinia
+
+•        UUID
+
+•        axios
