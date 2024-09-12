@@ -8,7 +8,7 @@
       <select v-model="selectedValue">
         <option value="English">English</option>
         <option value="Ukrainian">Ukrainian</option>
-        <option value="Polish">Polish</option>
+        <option value="Poland">Poland</option>
       </select>
     </div>
     <p class="selected-text">Selected: {{ selectedValue }}</p>
